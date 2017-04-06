@@ -1,0 +1,8 @@
+#table-of-contents h2 {
+  background-color: #211864;
+}
+
+body, input, textarea, select,p {
+  font-family: 'Helvetica';
+  font-size: 18px;
+}
