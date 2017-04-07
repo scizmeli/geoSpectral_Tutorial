@@ -22,7 +22,7 @@ abs$STATION=factor(abs$STATION)
 abs[1:2,1:17] #Display only the first 2 rows and first 17 columns if the data frame
 ```
    
-Ancillary (non-spectral) and spectral data are stored in columns 1-13 and 14:514 respectively. Wavelengths are extracted from column names of spectral data. The string variable *Units* stores the units of the spectral variable. The data columns were then arranged so that ancillary data are located at the right of spectral data columns. 
+Ancillary (non-spectral) and spectral data are stored in columns 1:13 and 14:514 respectively. Wavelengths are extracted from column names of spectral data. The string variable *Units* stores the units of the spectral variable. The data columns were then arranged so that ancillary data are located at the right of spectral data columns. 
 
 ```{r}
 lbd = as.numeric(gsub("X","",colnames(abs)[14:514]))

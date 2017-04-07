@@ -1,8 +1,35 @@
 #table-of-contents h2 {
-  background-color: #211864;
+  background-color: #FFFFFF;
 }
 
 body, input, textarea, select,p {
   font-family: 'Helvetica';
   font-size: 18px;
+}
+
+#table-of-contents, #postamble {
+  background: #FFFFFF ;
+}
+#postamble {
+  border-top: #FFFFFF;
+}
+#main a {
+  color: #9F2042;
+}
+#table-of-contents a {
+  color: #9F2042;
+}
+#table-of-contents ul.nav > li.active > a {
+  color: #9F2042 !important;
+}
+#table-of-contents ul.nav li.active ul li.active a {
+  color: #9F2042 !important;
+}
+
+#table-of-contents ul.nav li.active ul li a {
+  color: #9F2042 !important;
+  font-weight: normal;
+}
+#table-of-contents a:hover {
+  background-color: #9b9b9b;
 }

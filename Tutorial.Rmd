@@ -6,6 +6,7 @@ output:
     highlight: kate
     css: PranaStyle.css
     self_contained: false
+    keep_md: yes
 ---
 
 

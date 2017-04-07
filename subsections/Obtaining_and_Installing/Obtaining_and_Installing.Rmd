@@ -45,8 +45,7 @@ If you have *git* installed on your system, you can obtain the source code eithe
 ```
 git clone -b dev https://github.com/PranaGeo/geoSpectral.git
 ```
-or using another (GUI-based) *git* client. This will download the latest *master* branch of theThen, in your shell command prompt, try
-
+or using another (GUI-based) *git* client. This will download the latest *dev* branch of the software. Then, to install, type in your shell command prompt :
 ```
 R CMD INSTALL geoSpectral
 ```
