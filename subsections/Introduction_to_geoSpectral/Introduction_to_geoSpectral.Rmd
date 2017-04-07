@@ -14,7 +14,7 @@ output:
 This is the documentation for the R package **geoSpectral** v.`r packageVersion("geoSpectral")`
 
 
-**geoSpectral** is an R package providing a new S4 data type for R that stores spectral, temporal and spatial attributes of measurement data.  Spectral data is usually obtained through radiometric measurements of the electromagnetic energy at various wavelengths. The package also offers methods for accessing and manipulating the spectral (and non-spectral) data. **geoSpectral** was initially created to answer needs encountered in bio-optical oceanography, remote sensing, environmental and earth sciences. However anyone using spatial/temporal/spectral data of any kind can possibly make use of tools and methods provided by the package. The following S4 classes:
+**geoSpectral** is an R package providing a new S4 class for R that stores spectral, temporal and spatial attributes of measurement data.  Spectral data is usually obtained through radiometric measurements of the electromagnetic energy at various wavelengths. The package also offers methods for accessing and manipulating the spectral (and non-spectral) data. **geoSpectral** was initially created to answer needs encountered in bio-optical oceanography, remote sensing, environmental and earth sciences. However anyone using spatial/temporal/spectral data of any kind can possibly make use of tools and methods provided by the package. The following S4 classes:
 
 * [Spectra](#the-spectra-class) class (stores spatial/temporal/spectral aspects of data)
 * [SpcHeader](#the-spcheader-class) class (stores metadata in an R list object)

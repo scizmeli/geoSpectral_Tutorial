@@ -22,13 +22,13 @@ spc.setwavelengths(myS) <- lbd
 range(spc.getwavelengths(myS))
 ```
 
-The length of the Wavelenth slot should always to be equal to the number of channels stored in the object :
+The length of the Wavelength slot should always to be equal to the number of channels stored in the object :
 ```{r}
 length(lbd)==ncol(myS)
 ```
 
 ##Subsetting
-Subsetting with row indexes using the “[“ operator returns a **Spectra** object. The following command extracts rows 1 to 10 and spectral columns 30 to 50 (provided in integer format). Ancillary data is unchanged. 
+One can extract only a portion of the **Spectra** object by subsetting with row/column/spectra idexes using the “[“ operator . This operator returns a **Spectra** object. The following command extracts rows 1 to 10 and spectral columns 30 to 50 (provided in integer format). Ancillary data is unchanged. 
 ```{r}
 myS[1:10]
 ```
@@ -75,7 +75,7 @@ showMethods(subset,classes="Spectra",includeDefs=T)
 ```
 
 ##Selecting and flagging rows
-It is possible to select some of the rows manually or with the help of the mouse. As of the writing of this document, only records (rows) of a *Spectra* object can be selected with mouse. To manually set the first five observations as selected, use :
+It is possible to select some of the rows manually or with the help of the mouse. As of the writing of this document, only records (rows) of a *Spectra* object can be selected with the mouse. To manually set the first five observations as selected, use :
 ```{r}
 idx=rep(FALSE,nrow(myS)); 
 idx[1:5]=TRUE
